@@ -1,5 +1,10 @@
 # Editor By Default is vim
 EDITOR="vim"
+
+#Exporting The QT Theme (Dark Theme)
+
+export QT_STYLE_OVERRIDE=KvArcDark
+
 # Change To "st-256color" if you have st installed for better colors 
 export TERM="xterm-256color"
 
